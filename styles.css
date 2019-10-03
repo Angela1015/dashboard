@@ -1,0 +1,17 @@
+.grid-container{
+    background-color: blue;
+    display: grid;
+    border:salmon 2px dashed;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap:5px;
+    grid-template-rows: repeat(14, 1fr);
+    row-gap: 10px;
+}
+
+.header-nav{
+    background-color: white;
+    grid-column:1/1;
+    grid-row:1/14;
+    
+
+}
