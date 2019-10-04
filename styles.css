@@ -3,7 +3,7 @@
     display: grid;
     border:salmon 2px dashed;
     grid-template-columns: repeat(5, 1fr);
-    column-gap:5px;
+    column-gap:20px;
     grid-template-rows: repeat(14, 1fr);
     row-gap: 10px;
 }
@@ -30,13 +30,13 @@
 .level{
     background-color: purple;
     grid-column: 5;
-    grid-row:2;
+    grid-row:2/span 2;
 }
-.status{
+/*.status{
     background-color: yellow;
     grid-column: 5;
     grid-row:3;
-}
+}*/
 .project-status{
     background-color:pink;
     grid-column:2/ span 4;
@@ -45,5 +45,25 @@
 .cur{
     background-color: aqua;
     grid-column: 2;
-    grid-row:4;
+    grid-row:4/span 2;
+    border-radius: 5px;
+}
+.inp{
+    background-color: aliceblue;
+    grid-column:3;
+    grid-row:4/span 2;
+    border-radius: 5px;
+}
+.com{
+    background-color: aliceblue;
+    grid-column:4;
+    grid-row:4/span 2;
+    border-radius: 5px;
+
+}
+.not{
+    background-color: aliceblue;
+    grid-column:5;
+    grid-row:4/span 2;
+    border-radius: 5px;
 }
