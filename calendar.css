@@ -1,0 +1,9 @@
+.grid-container{
+    background-color: blue;
+    display: grid;
+    border:salmon 2px dashed;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap:20px;
+    grid-template-rows: repeat(14, 1fr);
+    row-gap: 10px;
+}
