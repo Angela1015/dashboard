@@ -31,12 +31,17 @@ a{
     display: flex;
     justify-content: space-between;
     align-items:center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .welcome{
     background-color: green;
     grid-column: 2/span 4;
     grid-row:2/span 2;
+    border:solid black;
+    border-radius: 5px;
+    padding-left: 10px;
 }
 .level{
     background-color: purple;
