@@ -34,6 +34,7 @@ a{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .welcome{
     background-color: green;
     grid-column: 2/span 4;
@@ -42,8 +43,14 @@ a{
     border-radius: 5px;
     padding-left: 10px;
 }
-.calender{
-    background-color: aquamarine;
-    grid-column: 2/span 2;
-    grid-row:2/span 13;
+
+.cards{
+    background-color: green;
+    grid-column: 2/ span 4;
+    grid-row: 2 / span 13;
+
+}
+.oyt{
+    height: 200px;
+    width:350px;
 }
