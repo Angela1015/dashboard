@@ -54,11 +54,23 @@ a{
 
 }
 .oyt{
-    height: 250px;
-    width:350px;
+    height: 375px;
+    width:450px;
 }
-
+/*.cards{
+    text-align: center;
+}*/
+.h4{
+    text-align: center;
+}
+.github{
+    text-align: center;
+}
 .FC901{
-    height: 250px;
-    width: 350px;
+    height: 375px;
+    width: 450px;
 }
+/*.span{
+    float: left;
+}*/
+    

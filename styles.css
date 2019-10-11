@@ -98,6 +98,7 @@ a{
 }
    
 
+
 th , td {
     padding:15px;
 }
@@ -109,9 +110,10 @@ th , td {
     grid-row:6/ span 7;
     
 }
-/*.projects-header{
-    float: left;*/
-
- .projects-header a{
+.current-projects a{
     float: right;
- }
+}
+
+/*.current-projects tr th {
+    float: right;
+ }*/
