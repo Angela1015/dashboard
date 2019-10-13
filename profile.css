@@ -7,8 +7,11 @@
     grid-template-rows: repeat(14, 1fr);
     row-gap: 10px;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: green;
     
+    
+}
+a{
+    color: black;
 }
 
 .sidebar-nav{
@@ -27,11 +30,10 @@
 a{
     text-decoration: none;
     display: flex;
-    color: black;
 }
  
 .header{
-    
+   
     grid-column: 2/span 4;
     grid-row: 1/span 1;
     display: flex;
@@ -42,56 +44,17 @@ a{
     position:fixed;
     width:78%;
     margin-left: 240px;
+
     
     
 }
 
-
-
-.cards{
-   /* background-color:rgba(94, 16, 16, 0.932);*/
-    grid-column: 2/ span 4;
-    grid-row: 2 / span 13;
-    display: flex;
-    justify-items: space-around;
-    align-items:center;
-
-}
-.oyt{
-    height: 425px;
-    width:485px;
+.welcome{
     
+    grid-column: 2/span 4;
+    grid-row:2/span 2;
+    border:solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    border:1px solid black;
 }
-/*.cards{
-    text-align: center;
-}*/
-.h4-oyt{
-    text-align: center;
-    color: white;
-
-}
-.h4-fc{
-    text-align: center;
-    color:rgb(0, 195, 255);
-
-}
-
-.FC901{
-    height: 425px;
-    width: 485px;
-}
-.oyt-font{
-    color:white;
-   
-    text-align: center;
-}
-.fc-font{
-    color:rgb(0, 195, 255);
-    
-    text-align: center;
-}
-
-/*.span{
-    float: left;
-}*/
-    
