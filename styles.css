@@ -20,12 +20,20 @@
     text-align:center;
     position: fixed;
     height: 100%;
+    
 }
-a{
-    color: black;
+.sidebar-nav p{
+    color:antiquewhite;
+}
+.sidebar-nav a{
+   
     text-decoration: none;
     display: flex;
+    color:antiquewhite
     
+}
+.sidebar-nav h4{
+    color:antiquewhite;
 }
   
 .header{
@@ -40,7 +48,14 @@ a{
     position:fixed;
     width:78%;
     margin-left: 240px;
-    background-color: white;  
+    background-color: rgb(39, 27, 17);  
+    color: antiquewhite;
+    
+    
+}
+.header a{
+    color: antiquewhite;
+    text-decoration: none;
 }
 
 
