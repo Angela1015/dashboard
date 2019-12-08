@@ -58,10 +58,18 @@
     display: flex;
     align-content: center;
     justify-content: space-around;
-    color: #000;
+    
 }
-.cards, a{
-    color: #000;
+.cards .oyt{
+    color: #03974D;
+
+}
+
+.cards .fc{
+    color: #104ba3;
+}
+.cards a{
+    color: rgb(0,0,0);
 }
 .OYT{
     min-height: 30%;
@@ -79,10 +87,10 @@
     max-width: 100%;
 }
 
-.project-description{
+/*.project-description{
     border: solid black;
 }
-
+*/
 
 /* .cards{
    /* background-color:rgba(94, 16, 16, 0.932);*/
